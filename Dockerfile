@@ -1,4 +1,4 @@
-FROM mariadb:10.0.19
+FROM mariadb:10.0.31
 
 RUN \
   ln -s /proc/self/fd/2 /var/log/mysql.symlink.stderr && \
