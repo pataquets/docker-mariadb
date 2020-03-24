@@ -1,4 +1,4 @@
-FROM mariadb:10.0.31
+FROM mariadb:10.0.38
 
 RUN \
   mkdir -vp /var/log/symlinks/dev/ && \
